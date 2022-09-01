@@ -1,0 +1,10 @@
+export const GET_USERS = 'get_users';
+export const GET_USER = 'get_user';
+export const REGISTER_USER = 'auth_user';
+export const AUTH_USER = 'auth_user';
+export const ERROR_GLOBAL = 'error_global';
+export const SUCCESS_GLOBAL = 'success_global';
+export const CLEAR_NOTIFICATION = 'clear_notification';
+export const SIGN_OUT = 'sign_out';
+export const SITE_LAYOUT = 'site_layout';
+export const EDIT_USER = 'edit_user';
