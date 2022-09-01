@@ -60,7 +60,7 @@ export const registerUser = (values) => {
 export const signInUser = (values) => {
     return async(dispatch)=>{
         try{
-            const user = await axios.post(`/api/users/profile/signin`,{
+            const user = await axios.post(`/api/users/signin`,{
                 email: values.email,
                 password: values.password
             });
